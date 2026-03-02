@@ -30,19 +30,6 @@
   v(0.5em)
 }
 
-// --- ÉDUCATION ---
-#section("EDUCATION")
-#entry(
-  "EPITA (Graduate School of Computer Science)",
-  "Master's Degree in Cybersecurity Engineering",
-  "2020 – 2026",
-  "Paris, France",
-  [
-    - *Leadership:* Founder and President of the EPITA Rust Club. Organized workshops, promoted the Rust language, and fostered a community of student Rustaceans.
-    - *Academic Projects:* Developed a custom OS Kernel; conducted malware/forensics analysis; deployed SOC and honeypot environments.
-  ]
-)
-
 // --- EXPÉRIENCE ---
 #section("EXPERIENCE")
 #entry(
@@ -51,8 +38,8 @@
   "Sept 2023 – Present",
   "Meudon, France",
   [
-    - Developed and implemented a security hardening program for a core Dassault Systèmes solution.
-    - Programmed extensively in *Rust* and *Java* to ensure system robustness and memory safety.
+    - Developed and implemented a *security hardening program* for the *On-Premise 3DEXPERIENCE Platform* of a Dassault Systèmes French client. Programmed extensively in *Rust* and *Java* to ensure system robustness and memory safety.
+    - Developed a PowerPoint explaining the *Dassault Systèmes license's mechanism*.
   ]
 )
 
@@ -67,14 +54,29 @@
   ]
 )
 
+// --- ÉDUCATION ---
+#section("EDUCATION")
+#entry(
+  "EPITA (Graduate School of Computer Science)",
+  "Master's Degree in Cybersecurity Engineering",
+  "2020 – 2026",
+  "Paris, France",
+  [
+    - *Academic Projects:* Deployed SOC and honeypot environments, developed a custom OS kernel, conducted malware/forensics analysis.
+    - *Leadership:* Founder and President of the EPITA *Rust* Club. Organized workshops, promoted the Rust language, and fostered a community of student *Rustaceans*.
+  ]
+)
+
+// --- COMPÉTENCES ---
+#section("SKILLS")
+- *Spoken Languages:* French, English, and some Spanish.
+- *Programming Languages:* Rust, C, Java
+- *Tools & Technologies:* Nix, Git, Linux
+- *Interests:* Cybersecurity, Formal Verification, System Hardening, Open Source Contribution
+- *Others*: Car license (manual and automatic).
+
 // --- AUTRES EXPÉRIENCES ---
 #section("OTHER EXPERIENCE")
 - *Fundraiser*, ODEEF (Apr 2019 – May 2019)
 - *Team Member*, McDonald's (Jul 2018 – Aug 2018)
 - *Heritage Restoration Volunteer*, REMPART (Jul 2017)
-
-// --- COMPÉTENCES ---
-#section("SKILLS")
-- *Programming Languages:* Rust, C, Java
-- *Tools & Technologies:* Nix, Git, Linux
-- *Interests:* Cybersecurity, Formal Verification, System Hardening, Open Source Contribution
