@@ -5,7 +5,7 @@
 #align(center)[
   #text(size: 24pt, weight: "bold")[Gustav Berloty] \
   #v(0.5em)
-  Paris, France | +33 6 58 85 97 89 | gustavberloty2\@gmail.com \
+  Paris, France | +33 6 58 85 97 89 | gustav.berloty\@3ds.com \
   linkedin.com/in/gustav-berloty
 ]
 
@@ -34,15 +34,14 @@
 #section("EXPERIENCE")
 #entry(
   "Dassault Systèmes",
-  "Software Engineering Apprentice (Cybersecurity & Architecture)",
+  [Software Engineering Apprentice (*Cybersecurity* & Architecture)],
   "Sept 2023 – Present",
   "Meudon, France",
   [
-    - Developed and implemented a *security hardening program* for the *On-Premise 3DEXPERIENCE Platform* of a Dassault Systèmes French client. Programmed extensively in *Rust* and *Java* to ensure system robustness and memory safety.
+    - Developed and implemented a *security hardening program* for the *On-Premise 3DEXPERIENCE Platform* of the *CEA*, a Dassault Systèmes French client. Programmed extensively in *Rust* and *Java* to ensure system robustness and memory safety.
     - Developed a PowerPoint explaining the *Dassault Systèmes license's mechanism*.
   ]
 )
-
 #entry(
   "Trombone",
   "Low-Level C Developer (Intern)",
@@ -58,12 +57,12 @@
 #section("EDUCATION")
 #entry(
   "EPITA (Graduate School of Computer Science)",
-  "Master's Degree in Cybersecurity Engineering",
+  [Master's Degree in *Cybersecurity* Engineering],
   "2020 – 2026",
   "Paris, France",
   [
     - *Academic Projects:* Deployed SOC and honeypot environments, developed a custom OS kernel, conducted malware/forensics analysis.
-    - *Leadership:* Founder and President of the EPITA *Rust* Club. Organized workshops, promoted the Rust language, and fostered a community of student *Rustaceans*.
+    - *Leadership:* Founder and President of the EPITA Rust Club. Organized workshops, promoted the Rust language, and fostered a community of student Rustaceans.
   ]
 )
 
