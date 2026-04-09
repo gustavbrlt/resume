@@ -62,7 +62,7 @@
   "Paris, France",
   [
     - *Academic Projects:* Deployed SOC and honeypot environments, developed a custom OS kernel, conducted malware/forensics analysis.
-    - *Research Project:* Designed and implemented **CNC-BPC**, a symbolic classifier based on **Formal Concept Analysis (FCA)** and **Information Theory** (Entropy/Information Gain), optimized for imbalanced dataset.
+    - *Research Project:* Designed and implemented **CNC-BPC**, a symbolic classifier based on **Formal Concept Analysis (FCA)** and **Information Theory** (Entropy/Information Gain), optimized for imbalanced datasets.
     - *Leadership:* Founder and President of the EPITA Rust Club. Organized workshops, promoted the Rust language, and fostered a community of student Rustaceans.
   ]
 )
