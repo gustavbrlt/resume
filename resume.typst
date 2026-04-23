@@ -54,7 +54,7 @@
   "May 2022 – July 2022",
   "Paris, France",
   [
-    - Developed embedded sensor drivers in *C* for the custom OS "HyperPaneIOS".
+    - Developed embedded sensor drivers in *C* for the OS _HyperPaneIOS_.
     - Assisted in deploying and securing the network infrastructure (Wi-Fi and camera systems) for the Solidays festival (+200k attendees).
   ]
 )
