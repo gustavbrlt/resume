@@ -1,14 +1,16 @@
 #set page(margin: (x: 1.5cm, y: 1.5cm))
-#set text(font: "Linux Libertine", size: 10.3pt)
+#set text(font: "Roboto", size: 10pt)
+
 
 // --- EN-TÊTE ---
 #align(center)[
-  #text(size: 24pt, weight: "bold")[Gustav Berloty] \
+  #text(size: 22pt, weight: "medium")[Gustav Berloty] \
   #v(0.5em)
   Paris, France | +33 6 58 85 97 89 | gustavberloty2\@gmail.com \
   linkedin.com/in/gustav-berloty
 ]
 
+#set text(font: "Linux Libertine", size: 10.3pt)
 #v(1em)
 
 // --- FONCTIONS DE MISE EN PAGE ---
@@ -74,7 +76,7 @@
 // --- COMPÉTENCES ---
 #section("SKILLS")
 - *Spoken Languages:* native French, English (TOEIC 875/990), and basic notions of Spanish.
-- *Programming Languages:* Rust, Python, low-level (asm, C), OOP (Java, C\#, C++) DB (SQL, CQL), scripting (shell, JS), functional (Scala, Caml), web (HTML/CSS, PHP).
+- *Programming Languages:* Rust, Python, low-level (asm, C), OOP (Java, C\#, C++), DB (SQL, CQL), scripting (shell, JS), functional (Scala, Caml), web (HTML/CSS, PHP).
 - *Tools & Technologies:* Nix, Git/SVN/Pijul, Linux, Docker/Podman.
 - *Interests:* Cybersecurity, Formal Verification, System Hardening, Open Source Contribution
 - *Others*: Car license (manual and automatic).
