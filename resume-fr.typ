@@ -62,7 +62,7 @@
   [
     - *Projets académiques :* Déploiement d'environnements SOC et honeypot, développement d'un noyau d'OS custom, analyse de malwares et forensics.
     - *Projet de recherche :* Conception et implémentation de **CNC-BPC**, un classifieur symbolique basé sur l'**Analyse de Concepts Formels (ACF)** et la **Théorie de l'Information** (Entropie/Gain d'information), optimisé pour les jeux de données déséquilibrés.
-    - *Leadership :* Cofondateur et Président du Rust Club EPITA. Organisation d'ateliers, promotion du langage Rust et animation d'une communauté d'étudiants Rustaceans.
+    - *Leadership :* Cofondateur et Président du club Rust d'EPITA. Organisation d'ateliers, promotion du langage Rust et animation d'une communauté d'étudiants Rustaceans.
   ]
 )
 // --- COMPÉTENCES ---
