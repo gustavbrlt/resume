@@ -35,7 +35,7 @@
   "Meudon, France",
   [
     - Développement et mise en œuvre d'un programme de durcissement de sécurité pour la plateforme 3DEXPERIENCE On-Premise d'un client français de Dassault Systèmes; programmation intensive en Rust et Java.
-    - Contribution à l'initiative _Protection des Données Client_ 3DS Eurowest pour aider une partie de la géog à mieux gérer les données clients, notamment les données sensibles.
+    - Contribution à l'initiative _Customer Data Protection_ 3DS Eurowest pour aider une partie de la géog à mieux gérer les données clients, notamment les données sensibles.
     - Installation de la plateforme 3DEXPERIENCE On-Premise sur VM pour des collaborateurs et un client 3DS.
     - Préparation d'infrastructure pour des clients (ex. : Airbus, NavalGroup, Hermès) et calculs de licences 3DS pour des environnements de test.
     - Soutient de l'équipe sur les normes de cybersécurité telles que ISO 27002/27017/27018/27701/27001 et NIS2.
@@ -48,7 +48,7 @@
   "Mai 2022 – Juillet 2022",
   "Paris, France",
   [
-    - Développement de pilotes de capteurs embarqués en *C* pour l'OS HyperPaneIOS.
+    - Développement de pilotes de capteurs embarqués en C pour l'OS HyperPaneIOS.
     - Participation au déploiement et à la sécurisation de l'infrastructure réseau (Wi-Fi et systèmes de caméras) pour le festival Solidays (+200k participants).
   ]
 )
