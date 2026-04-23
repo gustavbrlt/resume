@@ -1,5 +1,5 @@
 #set page(margin: (x: 1.5cm, y: 1.5cm))
-#set text(font: "Linux Libertine", size: 11pt)
+#set text(font: "Linux Libertine", size: 10.3pt)
 
 // --- EN-TÊTE ---
 #align(center)[
@@ -33,13 +33,18 @@
 // --- EXPÉRIENCE ---
 #section("EXPERIENCE")
 #entry(
-  "Dassault Systèmes",
+  "Dassault Systèmes — Eurowest pre-sale",
   [Software Engineering Apprentice (*Cybersecurity* & Architecture)],
   "Sept 2023 – Present",
   "Meudon, France",
   [
     - Developed and implemented a *security hardening program* for the *On-Premise 3DEXPERIENCE Platform* of a Dassault Systèmes French client. Programmed extensively in *Rust* and *Java* to ensure system robustness and memory safety.
-    - Developed a PowerPoint explaining the *Dassault Systèmes license's mechanism*.
+    - Participating to the _Customer Data Protection_ 3DS Eurowest initiative for helping a part of the geo to better manage customer data, especially sensitive customer data.
+    - OnPremise 3DEXPERIENCE Platform installation on VM for coworkers and a 3DS client.
+    - Infrastrcture preparation for clients (example: Airbus, NavalGroup, Hermès).
+    - Support the team regarding cybersecurity standards such as ISO 27002/27017/27018/27701/27001, and NIS2.
+    - 3DS license calculations for test environments.
+    - Developed an internal documentation explaining the Dassault Systèmes license's mechanism.
   ]
 )
 #entry(
@@ -69,9 +74,9 @@
 
 // --- COMPÉTENCES ---
 #section("SKILLS")
-- *Spoken Languages:* French, English, and some Spanish.
-- *Programming Languages:* Rust, C, Java
-- *Tools & Technologies:* Nix, Git, Linux
+- *Spoken Languages:* native French, B2 English, and school notions of Spanish.
+- *Programming Languages:* Rust, Java, Python, SQL, shell, C, C++, C\#, Caml, Scala, Javascript, HTML/CSS, PHP.
+- *Tools & Technologies:* Nix, Git/SVN/Pijul, Linux, Docker/Podman.
 - *Interests:* Cybersecurity, Formal Verification, System Hardening, Open Source Contribution
 - *Others*: Car license (manual and automatic).
 
