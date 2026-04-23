@@ -40,7 +40,7 @@
   "Sept 2023 – Present",
   "Meudon, France",
   [
-    - Developed and implemented a security hardening program for the On-Premise 3DEXPERIENCE Platform of a Dassault Systèmes French client. Programmed extensively in Rust and Java to ensure system robustness and memory safety.
+    - Developed and implemented a security hardening program for the On-Premise 3DEXPERIENCE Platform of a Dassault Systèmes French client; programmed extensively in Rust and Java.
     - Contributing to the _Customer Data Protection_ 3DS Eurowest initiative for helping a part of the geo to better manage customer data, especially sensitive customer data.
     - OnPremise 3DEXPERIENCE Platform installation on VM for coworkers and a 3DS client.
     - Infrastructure preparation for clients (example: Airbus, NavalGroup, Hermès), and 3DS license calculations for test environments.
@@ -54,7 +54,7 @@
   "May 2022 – July 2022",
   "Paris, France",
   [
-    - Developed embedded sensor drivers in *C* for the OS _HyperPaneIOS_.
+    - Developed embedded sensor drivers in *C* for the OS HyperPaneIOS.
     - Assisted in deploying and securing the network infrastructure (Wi-Fi and camera systems) for the Solidays festival (+200k attendees).
   ]
 )
