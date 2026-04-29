@@ -35,17 +35,20 @@
 // --- EXPÉRIENCE ---
 #section("EXPERIENCE")
 #entry(
-  "Dassault Systèmes — Eurowest pre-sale",
-  [Software Engineering Apprentice (*Cybersecurity* & Architecture)],
+  "Dassault Systèmes — 3DEXPERIENCE Platform Infrastructure & Cloud",
+  [Infrastructure & Cybersecurity Apprentice],
   "Sept 2023 – Present",
   "Meudon, France",
   [
-    - Developed and implemented a security hardening program for the On-Premise 3DEXPERIENCE Platform of a Dassault Systèmes French client; programmed extensively in Rust and Java.
-    - Contributing to the _Customer Data Protection_ 3DS Eurowest initiative for helping a part of the geo to better manage customer data, especially sensitive customer data.
-    - OnPremise 3DEXPERIENCE Platform installation on VM for coworkers and a 3DS client.
-    - Infrastructure preparation for clients (example: Airbus, NavalGroup, Hermès), and 3DS license calculations for test environments.
-    - Support the team regarding cybersecurity standards such as ISO 27002/27017/27018/27701/27001, and NIS2.
-    - Developed internal documentation explaining the Dassault Systèmes license's mechanism.
+    - Developed a security hardening program for the On-Premise 3DEXPERIENCE Platform, for an energy customer, leveraging Rust's memory safety and concurrency features to build a health-checking tool that:
+      - Verify secure configuration baselines (service states: TLS – versions and cipher suites – testing, sensitive HTTP headers check, HTTP Referrer filtering, HTTP methods management, and checking the absence of CVE-2020-1938 in TomEE AJP Listener).
+      - Scan for known vulnerabilities in dependencies using the customer's database. 
+      - Validate the presence and correctness of security-critical components. 
+      - Generate reports with minimal runtime overhead.
+    - Contributing to the _Customer Data Protection_ 3DS Eurowest initiative for helping a part of the geo to better manage sensitive customer data.
+    - Installations and testing of OnPremise 3DEXPERIENCE Platform (23x, 24x, 25x, 26x), with any necessary Native Apps, on VM (Oracle Linux) for POC, and for partner and customer trainings. Dassault Systèmes Licensing Server installation for demonstrations (e.g, Airbus, Naval Group) or testing.
+    - Assist the team to comply with ISO 2700(1,2,17,18) and NIS2 requirements.
+    - Upgrading internal documentation explaining the Dassault Systèmes license's mechanism (OnPremise, and Cloud).
   ]
 )
 #entry(
@@ -67,7 +70,7 @@
   "2020 – 2026",
   "Paris, France",
   [
-    - *Academic Projects:* Deployed SOC and honeypot environments, developed a custom OS kernel, conducted malware/forensics analysis.
+    - *Academic Projects:* Deployed SOC (Arkime, Timesketch, Wireshark, Python) and honeypot environments (Cowrie, NIDS); developed a custom OS kernel; malware/forensics analysis (MITRE ATT&CK, YARA rules, Velociraptor); pentesting; DevSecOps with GitHub Actions; developed a voting system through re-implementing the DSA signature algorithm and the ElGamal encryption algorithm.
     - *Research Project:* Designed and implemented **CNC-BPC**, a symbolic classifier based on **Formal Concept Analysis (FCA)** and **Information Theory** (Entropy/Information Gain), optimized for imbalanced datasets.
     - *Leadership:* Cofounder and President of the EPITA Rust Club. Organized workshops, promoted the Rust language, and fostered a community of student Rustaceans.
   ]
@@ -77,8 +80,11 @@
 #section("SKILLS")
 - *Spoken Languages:* native French, English (TOEIC 875/990), and basic notions of Spanish.
 - *Programming Languages:* Rust, Python, low-level (asm, C), OOP (Java, C\#, C++), DB (SQL, CQL), scripting (shell, JS), functional (Scala, Caml), web (HTML/CSS, PHP).
-- *Tools & Technologies:* Nix, Git/SVN/Pijul, Linux, Docker/Podman.
-- *Interests:* Cybersecurity, Formal Verification, System Hardening, Open Source Contribution
+- *Tools:* Docker/Podman, Grafana, VMware Workstation, Nixpkgs, Git/SVN/Pijul.
+- *OS:* Linux (NixOS, Oracle), Windows.
+- *AI*: MCP Server (RMCP Rust SDK, MCP Inspector), Ollama, Claude-Code (with Chrome extension), Mistral-Vibe, Cursor.
+- *Database & Storage:* PostgreSQL, ScyllaDB, Oracle, AWS S3, GCP.
+- *Log handling and analysis:* Tracing (from Tokio.rs).
 - *Others*: Car license (manual and automatic).
 
 // --- AUTRES EXPÉRIENCES ---
@@ -86,3 +92,9 @@
 - *Fundraiser*, ODEEF (Apr 2019 – May 2019)
 - *Team Member*, McDonald's (Jul 2018 – Aug 2018)
 - *Heritage Restoration Volunteer*, REMPART (Jul 2017)
+
+// --
+#section("INTERESTS")
+- *Music*: Accoustic guitar
+- *Sport*: Running
+- *Other*: Claw family (ZeroClaw, C++ GhostClaw), Open Source ecosystem, Rust ecosystem, formal verification.
