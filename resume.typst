@@ -3,13 +3,15 @@
 
 // --- EN-TÊTE ---
 #align(center)[
-  /* Other fonts with "medium" in weight:
+  /* Fonts with "medium" in weight:
     - Linux Libertine 28
     - Libre Baskerville 22
     - Lora 23
     - Noto Sans 26
     - Open Sauce One 23
     - PT Serif 28
+    - Public Sans 28 weight 550
+    I think the ideal would be a Public Sans 28, 550 weight, but just a tiny bit wider.
   */
   #text(font: "Public Sans", size: 28pt, weight: 550)[Gustav Berloty] \
   #v(0.5em)
