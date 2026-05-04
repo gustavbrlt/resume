@@ -19,7 +19,7 @@
   linkedin.com/in/gustav-berloty
 ]
 
-#set text(font: "Linux Libertine", size: 10.3pt)
+#set text(font: "Linux Libertine", size: 11.7pt)
 #v(1em)
 
 // --- FONCTIONS DE MISE EN PAGE ---
