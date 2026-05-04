@@ -3,13 +3,14 @@
 
 // --- EN-TÊTE ---
 #align(center)[
-  /* Other fonts with "medium" in weight:
+  /* Polices avec "medium" en gras:
     - Linux Libertine 28
     - Libre Baskerville 22
     - Lora 23
     - Noto Sans 26
     - Open Sauce One 23
     - PT Serif 28
+    - Public Sans 28 weight 550
     - L'idéal serait je pense une Public Sans 28 weight 550 mais très légèrement plus large.
   */
   #text(font: "Public Sans", size: 28pt, weight: 550)[Gustav Berloty] \
