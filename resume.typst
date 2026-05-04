@@ -1,10 +1,17 @@
 #set page(margin: (x: 1.5cm, y: 1.5cm))
-#set text(font: "Roboto", size: 10pt)
-
+#set text(font: "Linux Libertine", size: 10pt)
 
 // --- EN-TÊTE ---
 #align(center)[
-  #text(size: 22pt, weight: "medium")[Gustav Berloty] \
+  /* Other fonts with "medium" in weight:
+    - Linux Libertine 28
+    - Libre Baskerville 22
+    - Lora 23
+    - Noto Sans 26
+    - Open Sauce One 23
+    - PT Serif 28
+  */
+  #text(font: "Public Sans", size: 28pt, weight: 550)[Gustav Berloty] \
   #v(0.5em)
   Paris, France | +33 6 58 85 97 89 | gustavberloty2\@gmail.com \
   linkedin.com/in/gustav-berloty
@@ -40,7 +47,7 @@
   "Sept 2023 – Present",
   "Meudon, France",
   [
-    - Developed a security hardening program for the On-Premise 3DEXPERIENCE Platform, for an energy customer, leveraging Rust's memory safety and concurrency features to build a health-checking tool that:
+    - Developed a security hardening program for the On-Premise 3DEXPERIENCE Platform, for an energy customer, using Java (for writing the source code) and Rust (for writing tests), to build a health-checking tool that:
       - Verify secure configuration baselines (service states: TLS – versions and cipher suites – testing, sensitive HTTP headers check, HTTP Referrer filtering, HTTP methods management, and checking the absence of CVE-2020-1938 in TomEE AJP Listener).
       - Scan for known vulnerabilities in dependencies using the customer's database. 
       - Validate the presence and correctness of security-critical components. 
@@ -97,4 +104,4 @@
 #section("INTERESTS")
 - *Music*: Accoustic guitar
 - *Sport*: Running
-- *Other*: Claw family (ZeroClaw, C++ GhostClaw), Open Source ecosystem, Rust ecosystem, formal verification.
+- *Other*: ZeroClaw, Open Source ecosystem, Rust ecosystem, formal verification.
