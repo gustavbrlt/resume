@@ -89,7 +89,7 @@
 #section("SKILLS")
 - *Spoken Languages:* native French, English (TOEIC 875/990), and basic notions of Spanish.
 - *Programming Languages:* Rust, Python, low-level (asm, C), OOP (Java, C\#, C++), DB (SQL, CQL), scripting (shell, JS), functional (Scala, Caml), web (HTML/CSS, PHP).
-- *Tools:* Docker/Podman, Grafana, VMware Workstation, QEMU, Nixpkgs, Git/SVN/Pijul.
+- *Tools:* Docker/Podman, Grafana, VMware Workstation, QEMU, Nixpkgs, Git/SVN/Pijul, KeePassXC, Vim.
 - *OS:* Linux (NixOS, Oracle), Windows.
 - *AI*: MCP Server (RMCP Rust SDK, MCP Inspector), Ollama, Claude-Code (with Chrome extension), Mistral-Vibe, Cursor.
 - *Database & Storage:* PostgreSQL, ScyllaDB, Oracle, AWS S3, GCP.
