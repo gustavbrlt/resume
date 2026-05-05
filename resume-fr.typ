@@ -54,7 +54,6 @@
       - Détecter les vulnérabilités connues dans les dépendances à partir de la base de données du client.
       - Valider la présence et la conformité des composants critiques pour la sécurité.
       - Générer des rapports avec une charge d'exécution minimale.
-    - Contribution à l'initiative 3DS _Customer Data Protection_ afin d'aider l'équipe EUROWEST à mieux gérer les données sensibles des clients.
     - Installations et tests de la plateforme 3DEXPERIENCE OnPremise (23x, 24x, 25x, 26x), avec les Native Apps nécessaires, sur machines virtuelles (Oracle Linux) pour des POC, ainsi que pour les formations partenaires et clients. Installation du serveur de licences Dassault Systèmes pour des démonstrations (par ex. pour Airbus, Naval Group) ou pour des tests.
     - Assistance à l'équipe pour la mise en conformité avec les exigences ISO 2700(1,2,17,18) et NIS2.
     - Mise à jour de la documentation interne expliquant le mécanisme des licences Dassault Systèmes (OnPremise et Cloud).
@@ -89,7 +88,7 @@
 #section("COMPÉTENCES")
 - *Langues parlées :* français (langue maternelle), anglais (TOEIC 875/990), notions d'espagnol.
 - *Langages de programmation :* Rust, Python, bas niveau (asm, C), POO (Java, C\#, C++), BD (SQL, CQL), scripting (shell, JS), fonctionnel (Scala, Caml), web (HTML/CSS, PHP).
-- *Outils :* Docker/Podman, Grafana, VMware Workstation, Nixpkgs, Git/SVN/Pijul.
+- *Outils :* Docker/Podman, Grafana, VMware Workstation, QEMU, Nixpkgs, Git/SVN/Pijul.
 - *Systèmes d'exploitation :* Linux (NixOS, Oracle), Windows.
 - *IA :* Serveur MCP (SDK Rust RMCP, MCP Inspector), Ollama, Claude Code (avec extension Chrome), Mistral-Vibe, Cursor.
 - *Bases de données & stockage :* PostgreSQL, ScyllaDB, Oracle, AWS S3, GCP.
@@ -106,4 +105,4 @@
 #section("CENTRES D'INTÉRÊT")
 - *Musique :* guitare acoustique
 - *Sport :* course à pied
-- *Autres :* ZeroClaw, écosystème Open Source, écosystème Rust, vérification formelle.
+- *Autres :* ZeroClaw, YubiKey, OWASP, écosystème Rust, écosystème Open Source, vérification formelle.
