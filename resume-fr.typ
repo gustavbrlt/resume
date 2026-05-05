@@ -88,7 +88,7 @@
 #section("COMPÉTENCES")
 - *Langues parlées :* français (langue maternelle), anglais (TOEIC 875/990), notions d'espagnol.
 - *Langages de programmation :* Rust, Python, bas niveau (asm, C), POO (Java, C\#, C++), BD (SQL, CQL), scripting (shell, JS), fonctionnel (Scala, Caml), web (HTML/CSS, PHP).
-- *Outils :* Docker/Podman, Grafana, VMware Workstation, QEMU, Nixpkgs, Git/SVN/Pijul.
+- *Outils :* Docker/Podman, Grafana, VMware Workstation, QEMU, Nixpkgs, Git/SVN/Pijul, KeePassXC, Vim.
 - *Systèmes d'exploitation :* Linux (NixOS, Oracle), Windows.
 - *IA :* Serveur MCP (SDK Rust RMCP, MCP Inspector), Ollama, Claude Code (avec extension Chrome), Mistral-Vibe, Cursor.
 - *Bases de données & stockage :* PostgreSQL, ScyllaDB, Oracle, AWS S3, GCP.
