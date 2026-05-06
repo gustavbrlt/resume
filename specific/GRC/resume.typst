@@ -1,0 +1,92 @@
+#set page(margin: (x: 1.4cm, y: 1.0cm))
+#set text(font: "Linux Libertine", size: 10pt)
+#set par(leading: 0.55em)
+#show list: set block(spacing: 0.5em)
+
+// --- EN-TÊTE ---
+#align(center)[
+  #text(font: "Public Sans", size: 28pt, weight: 550)[Gustav Berloty] \
+  #v(0.5em)
+  Paris, France | +33 6 58 85 97 89 | gustavberloty2\@gmail.com \
+  linkedin.com/in/gustav-berloty
+]
+
+#set text(font: "Linux Libertine", size: 10pt)
+#v(0.4em)
+
+// --- FONCTIONS DE MISE EN PAGE ---
+#let section(title) = {
+  v(0.3em)
+  text(size: 12pt, weight: "bold", fill: rgb("#333333"))[#title]
+  line(length: 100%, stroke: 0.5pt + rgb("#666666"))
+  v(0.2em)
+}
+
+#let entry(title, subtitle, date, location, body) = {
+  grid(
+    columns: (1fr, auto),
+    row-gutter: 0.3em,
+    strong(title), align(right)[#date],
+    emph(subtitle), align(right)[#emph(location)]
+  )
+  body
+  v(0.3em)
+}
+
+// --- EXPERIENCE ---
+#section("EXPERIENCE")
+#entry(
+  "Dassault Systèmes — 3DEXPERIENCE Platform Infrastructure & Cloud",
+  [Infrastructure & Cybersecurity Apprentice],
+  "Sept 2023 – Present",
+  "Meudon, France",
+  [
+    - Authored an *internal reference document* explaining the *scope and articulation of ISO 27001/27002/27017/27018*, used by the *pre-sales team* to clarify the company's compliance posture in customer discussions.
+    - Designed and developed a *security hardening program* for the On-Premise 3DEXPERIENCE Platform, delivered to an energy-sector customer (Java for source code, Rust for tests). The resulting health-checking tool:
+      - Verifies *secure configuration baselines* (TLS versions and ciphers, sensitive HTTP headers, Referrer filtering, allowed methods, AJP listener checks).
+      - Detects *known vulnerabilities in dependencies* against the customer's database.
+      - Validates *security-critical components* and generates *audit-ready reports* with minimal runtime overhead.
+    - Contributed to the *Customer Data Protection* 3DS initiative, supporting the EUROWEST team in better managing sensitive customer data.
+    - Maintained and improved internal documentation describing the Dassault Systèmes licensing mechanism (On-Premise and Cloud).
+    - Performed installations and validation testing of the 3DEXPERIENCE Platform (releases 23x to 26x) on Oracle Linux VMs, including License Server deployments for partner trainings, customer demonstrations (e.g. Airbus, Naval Group), and internal POCs.
+  ]
+)
+#entry(
+  "Trombone",
+  "Low-Level C Developer (Intern)",
+  "May 2022 – July 2022",
+  "Paris, France",
+  [
+    - Assisted in *deploying the network infrastructure* (Wi-Fi and camera systems) for the Solidays festival (+200k attendees).
+    - Developed embedded sensor drivers in C for the OS HyperPaneIOS.
+  ]
+)
+
+// --- EDUCATION ---
+#section("EDUCATION")
+#entry(
+  "EPITA (Graduate School of Computer Science)",
+  [Master's Degree in *Cybersecurity* Engineering],
+  "2020 – 2026",
+  "Paris, France",
+  [
+    - *Security & Compliance Projects:* SOC deployment (Arkime, Timesketch, Wireshark, Python); honeypot environments (Cowrie, NIDS); malware analysis & digital forensics (MITRE ATT&CK, YARA, Velociraptor); pentesting; *DevSecOps* with GitHub Actions; voting system re-implementing DSA & ElGamal; custom OS kernel.
+    - *Research Project:* Designed *CNC-BPC*, a symbolic classifier based on *Formal Concept Analysis (FCA)* and *Information Theory*, optimized for imbalanced datasets.
+    - *Leadership:* Cofounder and President of the EPITA Rust Club. Organized workshops and fostered a community of student Rustaceans.
+  ]
+)
+
+// --- SKILLS ---
+#section("SKILLS")
+- *Cybersecurity & Compliance:* ISO 27001/27002/27017/27018, NIS2 (familiar), GDPR, SecNumCloud (familiar), cyber risk management, security hardening, vulnerability management (CVE), DevSecOps.
+- *Spoken Languages:* native French, English (TOEIC 875/990), basic notions of Spanish.
+- *Programming Languages:* Rust, Python, Java, C, shell scripting, SQL.
+- *Tools:* Docker/Podman, Grafana, VMware Workstation, QEMU, Git, KeePassXC.
+- *OS:* Linux (NixOS, Oracle), Windows.
+- *AI / Sovereign tooling:* MCP Server (RMCP Rust SDK, MCP Inspector), Ollama, Mistral, Claude-Code, Cursor.
+- *Database & Storage:* PostgreSQL, ScyllaDB, Oracle, AWS S3, GCP.
+
+// --- INTERESTS ---
+#section("INTERESTS")
+- *Cybersecurity & Open Source:* OWASP, YubiKey, ZeroClaw, formal verification, Rust ecosystem, Open Source contributions.
+- *Other:* Acoustic guitar, running.
