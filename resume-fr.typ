@@ -55,7 +55,7 @@
       - Valider la présence et la conformité des composants critiques pour la sécurité.
       - Générer des rapports avec une charge d'exécution minimale.
     - Installations et tests de la plateforme 3DEXPERIENCE OnPremise (23x, 24x, 25x, 26x), avec les Native Apps nécessaires, sur machines virtuelles (Oracle Linux) pour des POC, ainsi que pour les formations partenaires et clients. Installation du serveur de licences Dassault Systèmes pour des démonstrations (par ex. pour Airbus, Naval Group) ou pour des tests.
-    - Assistance à l'équipe pour la mise en conformité avec les exigences ISO 2700(1,2,17,18) et NIS2.
+    - Rédaction d'un document de référence interne expliquant le périmètre et l'articulation des normes ISO 27001/27002/27017/27018, utilisé par l'équipe avant-vente pour clarifier la posture de conformité de l'entreprise lors des échanges avec les clients.
     - Mise à jour de la documentation interne expliquant le mécanisme des licences Dassault Systèmes (OnPremise et Cloud).
   ]
 )
