@@ -66,7 +66,7 @@
   "Paris, France",
   [
     - Développement en C de pilotes embarqués pour capteurs, pour le système d'exploitation HyperPaneIOS.
-    - Participation au déploiement et à la sécurisation de l'infrastructure réseau (Wi-Fi et systèmes de caméras) pour le festival Solidays (+200k participants).
+    - Participation au déploiement de l'infrastructure réseau (Wi-Fi et systèmes de caméras) pour le festival Solidays (+200k participants).
   ]
 )
 
