@@ -105,4 +105,4 @@
 #section("CENTRES D'INTÉRÊT")
 - *Musique :* guitare acoustique
 - *Sport :* course à pied
-- *Autres :* Hermes Agent, ZeroClaw, YubiKey, OWASP, écosystème Rust, écosystème Open Source, vérification formelle.
+- *Autres :* Hermes-Agent, Tailscale, YubiKey, OWASP, Rust ecosystem, Open Source ecosystem, formal verification. YubiKey, OWASP, écosystème Rust, écosystème Open Source, vérification formelle.
