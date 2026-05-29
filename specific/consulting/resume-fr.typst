@@ -1,0 +1,91 @@
+#set page(margin: (x: 1.5cm, y: 1.5cm))
+#set text(font: "Linux Libertine", size: 10pt)
+
+// --- EN-TÊTE ---
+#align(center)[
+  #text(font: "Public Sans", size: 28pt, weight: 550)[Gustav Berloty] \
+  #v(0.5em)
+  Paris, France | +33 6 58 85 97 89 | gustavberloty2\@gmail.com \
+  linkedin.com/in/gustav-berloty
+]
+
+#set text(font: "Linux Libertine", size: 11.7pt)
+#v(1em)
+
+// --- FONCTIONS DE MISE EN PAGE ---
+#let section(title) = {
+  v(0.5em)
+  text(size: 13pt, weight: "bold", fill: rgb("#333333"))[#title]
+  line(length: 100%, stroke: 0.5pt + rgb("#666666"))
+  v(0.3em)
+}
+
+#let entry(title, subtitle, date, location, body) = {
+  grid(
+    columns: (1fr, auto),
+    row-gutter: 0.5em,
+    strong(title), align(right)[#date],
+    emph(subtitle), align(right)[#emph(location)]
+  )
+  body
+  v(0.5em)
+}
+
+// --- EXPÉRIENCE ---
+#section("EXPÉRIENCE")
+#entry(
+  "Dassault Systèmes — 3DEXPERIENCE Platform Infrastructure & Cloud",
+  [Apprenti Consultant Solution Architect],
+  "Sept. 2023 – Aujourd'hui",
+  "Meudon, France",
+  [
+    - *Conformité & Avant-vente :* Rédaction d'un document de référence interne expliquant le périmètre et l'articulation des normes ISO 27001/27002/27017/27018, utilisé par l'équipe avant-vente pour clarifier la posture de conformité de l'entreprise lors des échanges avec les clients.
+    - *Sécurité & Développement :* Développement d'un programme de durcissement de la sécurité pour la plateforme 3DEXPERIENCE On-Premise (client du secteur de l'énergie) en Java et Rust. Réalisation d'un outil de vérification d'état (_health-checking_) : vérification des configurations de sécurité (TLS, en-têtes HTTP, filtrage Referrer, méthodes HTTP, listener AJP TomEE CVE-2020-1938), détection des vulnérabilités connues dans les dépendances de la base client, validation de conformité des composants critiques et génération de rapports.
+    - *Déploiement & POC :* Installations et tests de la plateforme 3DEXPERIENCE OnPremise (versions 23x à 26x) avec Native Apps sur machines virtuelles (Oracle Linux) pour des POC, formations partenaires et clients. Installation du serveur de licences pour des démonstrations (ex. Airbus, Naval Group) ou tests.
+    - *Documentation :* Mise à jour de la documentation interne expliquant le mécanisme des licences Dassault Systèmes (OnPremise et Cloud).
+  ]
+)
+#entry(
+  "Trombone",
+  "Développeur C bas niveau (Stagiaire)",
+  "Mai 2022 – Juillet 2022",
+  "Paris, France",
+  [
+    - Développement en C de pilotes embarqués pour capteurs, pour le système d'exploitation HyperPaneIOS.
+    - Participation au déploiement de l'infrastructure réseau (Wi-Fi et systèmes de caméras) pour le festival Solidays (+200k participants).
+  ]
+)
+
+// --- ÉDUCATION ---
+#section("FORMATION")
+#entry(
+  "EPITA (École d'ingénieurs en informatique)",
+  [Diplôme d'ingénieur, spécialité Cybersécurité],
+  "2020 – 2026",
+  "Paris, France",
+  [
+    - *Projets académiques :* Déploiement d'un SOC (Arkime, Timesketch, Wireshark, Python) et d'environnements honeypot (Cowrie, NIDS) ; développement d'un noyau d'OS ; analyse de malwares et investigation numérique (MITRE ATT&CK, règles YARA, Velociraptor) ; pentesting ; DevSecOps avec GitHub Actions ; développement d'un système de vote via la réimplémentation de l'algorithme de signature DSA et de l'algorithme de chiffrement ElGamal.
+    - *Projet de recherche :* Conception et implémentation de *CNC-BPC*, un classifieur symbolique reposant sur l'Analyse Formelle de Concepts (FCA) et la Théorie de l'Information (Entropie / Gain d'Information), optimisé pour les jeux de données déséquilibrés.
+    - *Engagement associatif :* Cofondateur et Président du Rust Club d'EPITA. Organisation d'ateliers, promotion du langage Rust et animation d'une communauté étudiante de Rustacéens.
+  ]
+)
+
+// --- COMPÉTENCES ---
+#section("COMPÉTENCES")
+- *Langues parlées :* Français (langue maternelle), Anglais (TOEIC 875/990), notions d'espagnol.
+- *Technologies & IA :* Serveur MCP (SDK Rust RMCP, MCP Inspector), Ollama, Claude Code (avec extension Chrome), Mistral-Vibe, Cursor.
+- *Langages de programmation :* Rust, Python, bas niveau (asm, C), POO (Java, C\#, C++), BD (SQL, CQL), scripting (shell, JS), fonctionnel (Scala, Caml), web (HTML/CSS, PHP).
+- *Outils & Systèmes :* Docker/Podman, Grafana, VMware Workstation, QEMU, Nixpkgs, Git/SVN/Pijul, KeePassXC, Vim. Linux (NixOS, Oracle), Windows.
+- *Bases de données & Log :* PostgreSQL, ScyllaDB, Oracle, AWS S3, GCP. Tracing (de Tokio.rs).
+- *Autre :* Permis B (boîte manuelle et automatique).
+
+// --- AUTRES EXPÉRIENCES ---
+#section("AUTRES EXPÉRIENCES")
+- *Collecte de fonds*, ODEEF (avr. 2019 – mai 2019)
+- *Équipier polyvalent*, McDonald's (juil. 2018 – août 2018)
+- *Bénévole en restauration du patrimoine*, REMPART (juil. 2017)
+
+// --- CENTRES D'INTÉRÊT ---
+#section("CENTRES D'INTÉRÊT")
+- *Musique & Sport :* Guitare acoustique, course à pied.
+- *Technique & Veille :* Hermes-Agent, Tailscale, YubiKey, OWASP, écosystème Rust, écosystème Open Source, vérification formelle.
