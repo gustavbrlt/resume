@@ -58,6 +58,16 @@ Engineering student (MSc) bridging technology and business, with hands-on experi
   ]
 )
 #entry(
+  "H&F - AI Matchmaking Startup",
+  [Founder & Lead Developer],
+  "Early 2025 – Early 2026",
+  "Paris, France",
+  [
+    - Founded and solo-built the core product: an *MCP server* enabling any AI assistant to match people, starting with the dating vertical.
+    - Recruited and directed a second developer for testing and infrastructure; reached a near-complete proof of concept before pausing to focus on studies.
+  ]
+)
+#entry(
   "Trombone",
   "Infrastructure Deployment Intern",
   "May 2022 – July 2022",
@@ -85,8 +95,8 @@ Engineering student (MSc) bridging technology and business, with hands-on experi
 #section("SKILLS")
 - *Languages:* French (native), English (professional, TOEIC 875/990).
 - *Business & methods:* synthesizing complex topics into clear documentation (e.g. an ISO 27001-family reference for pre-sales), data protection awareness, pre-sales support.
-- *Analytical & technical:* data analysis, programming (Rust, Python, Java, C++), SQL databases, cloud (GCP, AWS), AI tooling.
-- *Tools:* n8n, Docker, Git, Grafana, virtualization (VMware, QEMU), Hermes-Agent, Linux.
+- *Analytical & technical:* data analysis, programming (Rust, Python, Java, C++), SQL databases, cloud (GCP, AWS), AI tooling (Hermes-Agent).
+- *Tools:* n8n, Docker, Git, Grafana, virtualization (VMware, QEMU), Linux.
 
 // --- AUTRES ---
 #section("OTHER EXPERIENCE & INTERESTS")
