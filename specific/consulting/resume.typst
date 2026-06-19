@@ -1,0 +1,91 @@
+#set page(margin: (x: 1.5cm, y: 1.5cm))
+#set text(font: "Linux Libertine", size: 10pt)
+
+// --- HEADER ---
+#align(center)[
+  #text(font: "Public Sans", size: 28pt, weight: 550)[Gustav Berloty] \
+  #v(0.5em)
+  Paris, France | +33 6 58 85 97 89 | gustavberloty2\@gmail.com \
+  linkedin.com/in/gustav-berloty
+]
+
+#set text(font: "Linux Libertine", size: 11.7pt)
+#v(1em)
+
+// --- LAYOUT FUNCTIONS ---
+#let section(title) = {
+  v(0.5em)
+  text(size: 13pt, weight: "bold", fill: rgb("#333333"))[#title]
+  line(length: 100%, stroke: 0.5pt + rgb("#666666"))
+  v(0.3em)
+}
+
+#let entry(title, subtitle, date, location, body) = {
+  grid(
+    columns: (1fr, auto),
+    row-gutter: 0.5em,
+    strong(title), align(right)[#date],
+    emph(subtitle), align(right)[#emph(location)]
+  )
+  body
+  v(0.5em)
+}
+
+// --- EXPERIENCE ---
+#section("EXPERIENCE")
+#entry(
+  "Dassault Systèmes — 3DEXPERIENCE Platform Infrastructure & Cloud",
+  [Apprentice Solution Architect Consultant],
+  "Sept. 2023 – Present",
+  "Meudon, France",
+  [
+    - *Compliance & Pre-sales:* Drafting of an internal reference document explaining the scope and articulation of ISO 27001/27002/27017/27018 standards, used by the pre-sales team to clarify the company's compliance posture during customer exchanges.
+    - *Security & Development:* Development of a security hardening program for the 3DEXPERIENCE On-Premise platform (energy sector client) in Java and Rust. Creation of a health-checking tool: verification of security configurations (TLS, HTTP headers, Referrer filtering, HTTP methods, TomEE AJP listener CVE-2020-1938), detection of known vulnerabilities in client base dependencies, compliance validation of critical components, and report generation.
+    - *Deployment & POC:* Installations and testing of the 3DEXPERIENCE OnPremise platform (versions 23x to 26x) with Native Apps on virtual machines (Oracle Linux) for POCs, partner, and customer training. Installation of the license server for demonstrations (e.g., Airbus, Naval Group) or testing.
+    - *Documentation:* Update of internal documentation explaining the mechanism of Dassault Systèmes licenses (OnPremise and Cloud).
+  ]
+)
+#entry(
+  "Trombone",
+  "Low-Level C Developer (Intern)",
+  "May 2022 – July 2022",
+  "Paris, France",
+  [
+    - Development in C of embedded drivers for sensors, for the HyperPaneIOS operating system.
+    - Participation in the deployment of the network infrastructure (Wi-Fi and camera systems) for the Solidays festival (+200k participants).
+  ]
+)
+
+// --- EDUCATION ---
+#section("EDUCATION")
+#entry(
+  "EPITA (School of Engineering and Computer Science)",
+  [Master's Degree in Engineering, specializing in Cybersecurity],
+  "2020 – 2026",
+  "Paris, France",
+  [
+    - *Academic projects:* Deployment of a SOC (Arkime, Timesketch, Wireshark, Python) and honeypot environments (Cowrie, NIDS); development of an OS kernel; malware analysis and digital forensics (MITRE ATT&CK, YARA rules, Velociraptor); pentesting; DevSecOps with GitHub Actions; development of a voting system via the reimplementation of the DSA signature algorithm and the ElGamal encryption algorithm.
+    - *Research project:* Design and implementation of *CNC-BPC*, a symbolic classifier based on Formal Concept Analysis (FCA) and Information Theory (Entropy / Information Gain), optimized for imbalanced datasets.
+    - *Student organization involvement:* Co-founder and former President of the EPITA Rust Club. Organization of workshops, promotion of the Rust language, and animation of a student community of Rustaceans.
+  ]
+)
+
+// --- SKILLS ---
+#section("SKILLS")
+- *Spoken languages:* French (native), English (TOEIC 875/990), notions of Spanish.
+- *Technologies & AI:* MCP Server (Rust RMCP SDK, MCP Inspector), Ollama, Claude Code (with Chrome extension), Mistral-Vibe, Cursor.
+- *Programming languages:* Rust, Python, low-level (asm, C), OOP (Java, C\#, C++), DB (SQL, CQL), scripting (shell, JS), functional (Scala, Caml), web (HTML/CSS, PHP).
+- *Tools & Systems:* Docker/Podman, Grafana, VMware Workstation, QEMU, Nixpkgs, Git/SVN/Pijul, KeePassXC, Vim, Linux (NixOS, Oracle), Windows.
+- *Databases & Log:* PostgreSQL, ScyllaDB, Oracle, AWS S3, GCP. Tracing (from Tokio.rs).
+- *Other:* Driver's license (manual and automatic transmission).
+
+// --- OTHER EXPERIENCE ---
+#section("OTHER EXPERIENCE")
+- *Fundraising*, ODEEF (Apr. 2019 – May 2019)
+- *Team Member*, McDonald's (July 2018 – Aug. 2018)
+- *Heritage restoration volunteer*, REMPART (July 2017)
+
+// --- INTERESTS ---
+#section("INTERESTS")
+- *Music & Sport:* Acoustic guitar, running.
+- *Technical & Monitoring:* Hermes-Agent, Tailscale, YubiKey, OWASP, Rust ecosystem, Open Source ecosystem, formal verification.
